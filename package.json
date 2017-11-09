@@ -1,0 +1,14 @@
+{
+  "name": "react-cosmos-glamorous-proxy",
+  "version": "1.0.0",
+  "description": "A simple proxy for react-cosmos to load glamorous themes.",
+  "main": "glamorous-proxy.js",
+  "repository": "git@github.com:alp82/react-cosmos-glamorous-proxy.git",
+  "author": "Alper Ortac <alportac@gmail.com>",
+  "license": "MIT",
+  "peerDependencies": {
+    "glamorous": "^4.11.0",
+    "react": "^16.1.0",
+    "react-cosmos-shared": "^3.0.0-beta.3"
+  }
+}
