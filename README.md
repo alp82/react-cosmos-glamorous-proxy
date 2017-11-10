@@ -7,7 +7,7 @@ It's basically wrapping your components with a [`ThemeProvider`](https://glamoro
 Be sure to have all needed peer dependencies installed.
 
 Import `glamorous-proxy` and create a new proxy instance with your theme:
-```
+```js
 // config/cosmos/glamorous-proxy.js
 import myTheme from 'theme/myTheme';
 
@@ -19,7 +19,7 @@ export default GlamorousProxy;
 ```
 
 Use this instance in your proxy config:
-```
+```js
 // cosmos.proxies.js
 import glamorousProxy from 'config/cosmos/glamorous-proxy';
 
